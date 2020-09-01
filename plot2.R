@@ -16,4 +16,5 @@ plot(x = df[, dateTime]
      , y = df[, Global_active_power]
      , type="l", xlab="", ylab="Global Active Power (kilowatts)")
 
+
 dev.off()
